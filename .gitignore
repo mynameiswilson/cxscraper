@@ -1,0 +1,18 @@
+# Scraped data and generated reports.
+# These contain rider names, USA Cycling licence numbers, home cities and teams.
+# All of it is public on USA Cycling's site, but aggregated into one file here —
+# decide deliberately before committing any of it.
+*.csv
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Editor / OS
+.DS_Store
+*.code-workspace
+.claude/
+usac_cx_2024/raw_html/results_index.php.html
+usac_cx_2024/raw_html/results.html

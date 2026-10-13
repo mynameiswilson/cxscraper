@@ -1,0 +1,4 @@
+# USA Cycling's Sport80 platform serves JSON, so there is no HTML parsing here
+# and no need for a rate-limit decorator — the client throttles itself.
+requests>=2.28
+tqdm>=4.65
